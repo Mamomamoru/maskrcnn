@@ -75,3 +75,6 @@ run -i setup.py build_ext install
 
 4 directories, 34 files
 ```
+
+## Sample
+![result](https://github.com/Mamomamoru/maskrcnn/blob/master/maskrcnn.gif)
