@@ -4,26 +4,26 @@
 - ### Get the source code of Mask R-CNN and set it up
 ```
 # get source frmo git
-cd ~/try_maskrcnn/demo
+cd ~/maskrcnn/demo
 git clone https://github.com/matterportMask_RCNN.git
 
 # get library
-cd ~/try_maskrcnn/demo/Mask_RCNN
+cd ~/maskrcnn/demo/Mask_RCNN
 pip install -r requirements.txt
 
 # run setup.py
-cd ~/try_maskrcnn/demo/Mask_RCNN
+cd ~/maskrcnn/demo/Mask_RCNN
 run -i setup.py install
 ```
 
 - ### Get and set up COCO API source code
 ```
 # Get the source for COCO
-cd ~/try_maskrcnn/demo/
+cd ~/maskrcnn/demo/
 git clone https://github.com/waleedka/coco.git
 
 # Install the API for python
-cd ~/try_maskrcnn/demo/coco/PythonAPI
+cd ~/maskrcnn/demo/coco/PythonAPI
 run -i setup.py build_ext --inplace
 run -i setup.py build_ext install
 ```
