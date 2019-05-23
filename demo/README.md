@@ -4,26 +4,26 @@
 - ### Get the source code of Mask R-CNN and set it up
 ```
 # get source frmo git
-cd ~/maskrcnn/demo
+cd ~/try_maskrcnn/demo
 git clone https://github.com/matterportMask_RCNN.git
 
 # get library
-cd ~/maskrcnn/demo/Mask_RCNN
+cd ~/try_maskrcnn/demo/Mask_RCNN
 pip install -r requirements.txt
 
 # run setup.py
-cd ~/maskrcnn/demo/Mask_RCNN
+cd ~/try_maskrcnn/demo/Mask_RCNN
 run -i setup.py install
 ```
 
 - ### Get and set up COCO API source code
 ```
 # Get the source for COCO
-cd ~/maskrcnn/demo/
+cd ~/try_maskrcnn/demo/
 git clone https://github.com/waleedka/coco.git
 
 # Install the API for python
-cd ~/maskrcnn/demo/coco/PythonAPI
+cd ~/try_maskrcnn/demo/coco/PythonAPI
 run -i setup.py build_ext --inplace
 run -i setup.py build_ext install
 ```
@@ -32,6 +32,7 @@ run -i setup.py build_ext install
 - mask_rcnn_coco.h5
 
 ## Directory Structure
+
 ```
 .
 ├── LICENSE
@@ -75,6 +76,3 @@ run -i setup.py build_ext install
 
 4 directories, 34 files
 ```
-
-## Sample
-![result](https://github.com/Mamomamoru/maskrcnn/blob/master/maskrcnn.gif)
